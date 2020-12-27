@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+        dyno-app:
+                container_name: dyno-app
+                build:
+                        context: .
+                        dockerfile: Dockerfile
+                volumes:
+                        - '.:/dyno-app'
+                        - '/dyno-app/node_modules'
+                ports:
+                        - 3001:3000
