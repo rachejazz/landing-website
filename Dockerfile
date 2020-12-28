@@ -4,6 +4,10 @@ WORKDIR /dyno-app
 
 COPY package.json /dyno-app
 
+RUN apk --no-cache add git
+
+RUN git config --list
+
 RUN npm install
 
 RUN npm install --save gh-pages

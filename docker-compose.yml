@@ -9,5 +9,7 @@ services:
                 volumes:
                         - '.:/dyno-app'
                         - '/dyno-app/node_modules'
+                        - '/home/divya/.gitconfig:/dyno-app/.gitconfig'
+                        - './.git:/dyno-app/.git'
                 ports:
                         - 3001:3000
