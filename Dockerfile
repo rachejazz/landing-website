@@ -14,5 +14,9 @@ RUN npm install --save gh-pages
 
 COPY . /dyno-app
 
+RUN git config user.email "divyadeepti2000@gmail.com"
+
+RUN git config user.name "rachejazz"
+
 CMD ["npm", "run", "deploy"]
 
