@@ -6,6 +6,8 @@ COPY package.json /dyno-app
 
 RUN npm install
 
+RUN npm install --save gh-pages
+
 COPY . /dyno-app
 
 CMD ["npm", "start"]
