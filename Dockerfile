@@ -10,5 +10,5 @@ RUN npm install --save gh-pages
 
 COPY . /dyno-app
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "deploy"]
 
