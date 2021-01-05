@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Time to reflect on your sales, not accent',
-    paragraph: 'About dynopii services, placeholders are weird when they ought to be mean sth.'
+    title: 'Dhwani, The AI Agent',
+    paragraph: 'Let our trained models ease your work. Introducing AI based solutions. See the impossible become reality.'
   };
 
   return (
@@ -70,7 +70,7 @@ const FeaturesSplit = ({
                   A possbility explored like never before
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Dhwani, The AI Agent 
+                  AI Voice Accent Changer 
                   </h3>
                 <p className="m-0">
                   A Real Time AI Agent, <br /> One click installation, <br /> Customizable Dashboard, <br /> SaaS based Solution
@@ -99,7 +99,7 @@ const FeaturesSplit = ({
                   AI Dialer
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                A Real Time AI Agent, <br /> One click installation, <br /> Customizable Dashboard, <br /> SaaS based Solution
                   </p>
               </div>
               <div className={

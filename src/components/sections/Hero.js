@@ -61,17 +61,17 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              You've successfully reached <span className="text-color-primary">Dynopii</span>
+            <span className="text-color-primary">Dynopii</span><br /><br /> <span>Redefining the way you communicate.</span> 
             </h1>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                We reinvent communications, rebuild connections, reimagining them like none before.
-                </p>
+              {/* <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                We REinvent communications, REbuild connections, REimagine them like none before.
+                </p> */}
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://dynopii.com/">
+                  {/* <Button tag="a" color="primary" wideMobile href="https://dynopii.com/">
                     Get started
-                    </Button>
+                    </Button> */}
                   <Button tag="a" color="dark" wideMobile href="https://github.com/dynopii">
                     View on Github
                     </Button>
@@ -81,10 +81,10 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
+              // data-video="https://player.vimeo.com/video/174002812"
+              // href="#0"
+              // aria-controls="video-modal"
+              // onClick={openModal}
             >
               <Image
                 className="has-shadow"

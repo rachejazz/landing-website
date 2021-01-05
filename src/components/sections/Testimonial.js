@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'Customer testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    paragraph: 'Proudly showcasing our appreciated efforts through a few words from our worthy clients.'
   };
 
   return (
@@ -69,7 +69,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Roman Level</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">Dynopii</a>
                   </span>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">Dynopii</a>
                   </span>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Ben Stafford</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
+                    <a href="#0">Dynopii</a>
                   </span>
                 </div>
               </div>

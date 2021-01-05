@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Redefining the way you communicate.',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: '',
+    paragraph: 'Scroll down to checkout our latest products.'
   };
 
   return (
@@ -140,7 +140,7 @@ const FeaturesTiles = ({
                     Reinventing humane ideas
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    It is our continued effort to bring about ideas solely for the benefit of mankind.
                     </p>
                 </div>
               </div>
@@ -162,7 +162,7 @@ const FeaturesTiles = ({
                     Confident with Customers
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    We have always maintained a relation of faith and trust with our clients, never letting them down.
                     </p>
                 </div>
               </div>
@@ -181,10 +181,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                     We take communications seriously.
+                     Your word matters to us
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Our current goal being to change the channels of communications, making interaction a ton easier.
                     </p>
                 </div>
               </div>
