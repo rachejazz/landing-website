@@ -92,7 +92,7 @@ const Testimonial = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -107,7 +107,7 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>

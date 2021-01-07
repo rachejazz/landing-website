@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="https://blog.dynopii.com" onClick={closeMenu}>About us</Link>
+                      {/* <Link to="https://blog.dynopii.com" onClick={closeMenu}>About us</Link> */}<a href="https://blog.dynopii.com">About us</a>
                     </li>
                   </ul>
                   {/* {!hideSignin &&

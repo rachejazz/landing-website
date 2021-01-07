@@ -19,17 +19,17 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="mailto:twitter@dynopii.com">Contact</Link>
+          {/* <Link to="mailto:twitter@dynopii.com">Contact</Link> */}<a href="mailto:hello@dynopii.com">Contact us</a>
         </li>
         <li>
-          <Link to="https://blog.dynopii.com">About us</Link>
+          {/* <Link to="https://blog.dynopii.com">About us</Link> */}<a href="https://blog.dynopii.com">About us</a>
         </li>
         {/* <li>
           <Link to="#0">FAQ's</Link>
         </li> */}
-        <li>
+        {/* <li>
           <Link to="https://twitter.com/dynopii">Support</Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

@@ -73,7 +73,7 @@ const Hero = ({
                     Get started
                     </Button> */}
                   <Button tag="a" color="dark" wideMobile href="https://github.com/dynopii">
-                    View on Github
+                    View us on Github
                     </Button>
                 </ButtonGroup>
               </div>
@@ -94,12 +94,12 @@ const Hero = ({
                 height={504} />
             </a>
           </div>
-          <Modal
+          {/* <Modal
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
+            videoTag="iframe" /> */}
         </div>
       </div>
     </section>
