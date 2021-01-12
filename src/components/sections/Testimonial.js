@@ -84,10 +84,10 @@ const Testimonial = ({
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Mr. Kar</span>
+                  <span className="testimonial-item-name text-color-high">Mr. James</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">CEO@Incube solutions</a>
+                    <a href="#0">Tech support manager@IQSolutions</a>
                   </span>
                 </div>
               </div>
